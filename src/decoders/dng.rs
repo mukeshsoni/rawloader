@@ -288,7 +288,7 @@ impl<'a> DngDecoder<'a> {
                         match decode_result {
                             Ok(_) => {}
                             Err(e) => {
-                                eprintln!("Error decoding tile: {}", e);
+                                // eprintln!("Error decoding tile: {}", e);
                             }
                         }
                     }
